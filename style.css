@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  text-align: center;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 8px;
+  margin: 8px auto;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#pesan {
+  font-size: 14px;
+}
