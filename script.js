@@ -2,7 +2,7 @@ function login() {
   var user = document.getElementById("username").value;
   var pass = document.getElementById("password").value;
 
-  if (user === "ameng" && pass === "opengsukaameng") {
+  if (user === "ameng" && pass === "monyet") {
     document.getElementById("pesan").innerHTML =
       "Login berhasil! Mengalihkan...";
     document.getElementById("pesan").style.color = "green";
@@ -12,7 +12,8 @@ function login() {
       window.location.href = "story/index.html";
     }, 1000);
   } else {
-    document.getElementById("pesan").innerHTML = "Nak login telpon Openg dulu!";
+    document.getElementById("pesan").innerHTML =
+      "PW nya aku ganti, agak malu sikit anjayy, tanya openg lagi eee";
     document.getElementById("pesan").style.color = "red";
   }
 }
