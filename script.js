@@ -2,7 +2,7 @@ function login() {
   var user = document.getElementById("username").value;
   var pass = document.getElementById("password").value;
 
-  if (user === "ameng" && pass === "monyet") {
+  if (user === "ameng" && pass === "opengsukaameng") {
     document.getElementById("pesan").innerHTML =
       "Login berhasil! Mengalihkan...";
     document.getElementById("pesan").style.color = "green";
